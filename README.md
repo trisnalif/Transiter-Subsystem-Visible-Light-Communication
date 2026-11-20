@@ -1,4 +1,6 @@
-<img width="604" height="513" alt="Reworking Skripsi PCB3" src="https://github.com/user-attachments/assets/b2a7b2b0-6cd1-4d7a-8401-d5733541220a" />
+
+![Uploading Reworking Skripsi PCB1.jpg…]()
+
 
 # Transmiter-Subsystem-Visible-Light-Communication
 
@@ -7,6 +9,8 @@ Hardware design repository (KiCad schematic and PCB layout) for a high-speed **V
 ---
 
 #### Circuit Architecture & Functional Blocks
+<img width="919" height="421" alt="Reworkin skripsi Schematic1" src="https://github.com/user-attachments/assets/59e82aca-5d6e-4325-98c4-ff5ce91b1842" />
+
 
 1. **Power Supply Decoupling & DC Bias Reference (`C3`, `JP1`, `RV1`, `C2`, `U1`)**
    - **`C3` (2.2 µF):** Bulk decoupling capacitor connected between `VCC` and `GNDREF` to filter low-frequency supply ripple.
@@ -26,5 +30,8 @@ Hardware design repository (KiCad schematic and PCB layout) for a high-speed **V
    - **`R6` (47 Ω) & `C1` (20 pF):** Gate resistor and shunt capacitance placed between `U2` output and the MOSFET gate to damp high-frequency oscillations and control switching edge rates.
    - **`Q1` (IRF510PBF — N-Channel Power MOSFET):** Acts as the current-modulating driver stage (Drain connected to `VCC` / LED load path, Source routed through jumper `JP2` to `GNDREF`) capable of handling higher LED drive currents at high switching speeds.
    - **`JP1` & `JP2` (Bridged Jumpers):** Hardware test/isolation jumpers allowing easy current measurement or circuit debugging during PCB bring-up.
+  
+<img width="641" height="360" alt="Reworking skripsi PCB2" src="https://github.com/user-attachments/assets/bd31281a-5152-4b5f-aa41-f8b989bee0fc" />
+<img width="604" height="513" alt="Reworking Skripsi PCB3" src="https://github.com/user-attachments/assets/afc1dca9-2370-48f2-927f-0cf5e9ed5805" />
 
 ---
