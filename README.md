@@ -1,3 +1,5 @@
+<img width="604" height="513" alt="Reworking Skripsi PCB3" src="https://github.com/user-attachments/assets/b2a7b2b0-6cd1-4d7a-8401-d5733541220a" />
+
 # Transmiter-Subsystem-Visible-Light-Communication
 
 Hardware design repository (KiCad schematic and PCB layout) for a high-speed **Visible Light Communication (VLC) Transmitter Subsystem**. The circuit integrates a DC bias-tee conditioning network, a high-speed non-inverting amplifier stage based on dual **LM7171BIN** op-amps, and an **IRF510PBF** N-channel power MOSFET driver stage to modulate an LED light source with high-frequency data signals.
