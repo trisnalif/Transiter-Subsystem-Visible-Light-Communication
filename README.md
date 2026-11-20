@@ -1,5 +1,4 @@
-
-![Uploading Reworking Skripsi PCB1.jpg…]()
+<img width="689" height="407" alt="Reworking Skripsi PCB1" src="https://github.com/user-attachments/assets/34d36863-9b1a-432f-bc41-56007367c343" />
 
 
 # Transmiter-Subsystem-Visible-Light-Communication
