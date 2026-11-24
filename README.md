@@ -1,4 +1,4 @@
-<img width="689" height="407" alt="Reworking Skripsi PCB1" src="https://github.com/user-attachments/assets/34d36863-9b1a-432f-bc41-56007367c343" />
+<img width="705" height="444" alt="Reworking Skripsi PCB1" src="https://github.com/user-attachments/assets/17c1e8c2-9ff6-400f-b8a0-a99cd1df30a5" />
 
 
 # Transmiter-Subsystem-Visible-Light-Communication
@@ -8,7 +8,9 @@ Hardware design repository (KiCad schematic and PCB layout) for a high-speed **V
 ---
 
 #### Circuit Architecture & Functional Blocks
-<img width="919" height="421" alt="Reworkin skripsi Schematic1" src="https://github.com/user-attachments/assets/59e82aca-5d6e-4325-98c4-ff5ce91b1842" />
+<img width="923" height="451" alt="Reworkin skripsi Schematic1" src="https://github.com/user-attachments/assets/45f2595c-73aa-46d4-8833-876de12cb727" />
+
+
 
 
 1. **Power Supply Decoupling & DC Bias Reference (`C3`, `JP1`, `RV1`, `C2`, `U1`)**
@@ -30,7 +32,9 @@ Hardware design repository (KiCad schematic and PCB layout) for a high-speed **V
    - **`Q1` (IRF510PBF — N-Channel Power MOSFET):** Acts as the current-modulating driver stage (Drain connected to `VCC` / LED load path, Source routed through jumper `JP2` to `GNDREF`) capable of handling higher LED drive currents at high switching speeds.
    - **`JP1` & `JP2` (Bridged Jumpers):** Hardware test/isolation jumpers allowing easy current measurement or circuit debugging during PCB bring-up.
   
-<img width="641" height="360" alt="Reworking skripsi PCB2" src="https://github.com/user-attachments/assets/bd31281a-5152-4b5f-aa41-f8b989bee0fc" />
-<img width="604" height="513" alt="Reworking Skripsi PCB3" src="https://github.com/user-attachments/assets/afc1dca9-2370-48f2-927f-0cf5e9ed5805" />
+<img width="555" height="345" alt="Reworking skripsi PCB2_Top" src="https://github.com/user-attachments/assets/c21559cf-49af-4e89-bb98-9b0829f1088e" />
+
+<img width="557" height="347" alt="Reworking Skripsi PCB3_Bottom" src="https://github.com/user-attachments/assets/efabda3a-35b6-4af3-864c-74d8b77a299d" />
+
 
 ---
